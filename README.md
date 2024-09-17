@@ -50,9 +50,9 @@
 
 ## 데이터
 
-이 프로젝트는 MovieLens 100K 데이터셋을 사용합니다. 데이터는 첫 실행 시 자동으로 다운로드되며, `SPARK-PROJECT/app/data` 디렉토리에 저장.
+이 프로젝트는 MovieLens 100K 데이터셋을 사용합니다. 데이터는 첫 실행 시 자동으로 다운로드되며, `SPARK-PROJECT/app/data` 디렉토리에 저장
 
 ## 모델 학습 
-- SVD 모델 학습 및 저장, `SPARK-PROJECT/models` 디렉토리에 저장.
-- (TO-DO) `POST /train` 엔드포인트를 통해 모델을 수동으로 학습시킬 수 있습니다.
-- (TO-DO) 선택적으로 1분 간격의 주기적 재학습을 설정할 수 있습니다.
+- SVD 모델 학습 및 저장, `SPARK-PROJECT/models` 디렉토리에 저장
+- (TO-DO) `POST /train` 엔드포인트를 통해 모델을 수동 학습
+- (TO-DO) 선택적으로 1분 간격의 주기적 재학습
