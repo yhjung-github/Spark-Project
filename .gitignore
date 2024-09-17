@@ -1,0 +1,4 @@
+/.conda
+/.vscode
+/.venv
+/app/data/*
