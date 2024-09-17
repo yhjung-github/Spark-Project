@@ -2,3 +2,6 @@
 /.vscode
 /.venv
 /app/data/*
+/models/*
+/app/__pycache__/*
+/app/module/__pycache__/*
