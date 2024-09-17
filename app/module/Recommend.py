@@ -79,9 +79,6 @@ class Recommend:
         self.model.fit(self.trainset)
         print("모델 학습 완료")
 
-        # 테스트 수행 및 결과 저장
-        self.test()
-
         # 모델 저장
         self.save_model()
 
